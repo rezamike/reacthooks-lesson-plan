@@ -4,7 +4,9 @@
 
 ### Assignment Prep
 
-* For our lesson plan, we'll only be focusing on State Hooks and Effect Hooks. That being said, it's still necessary to understand Hooks as a whole. Take some time with a partner to look over the lowdown of [Hooks and Effects](https://reactjs.org/docs/hooks-intro.html) that have rolled out with React v.16.8. You should be able to answer the following questions:
+#### Part 1
+
+* For our lesson plan, we'll only be focusing on State Hooks and Effect Hooks. That being said, it's still necessary to understand Hooks as a whole. Take some time with a partner to look over the lowdown of [React Hooks](https://reactjs.org/docs/hooks-intro.html) that have rolled out with React v.16.8. You should be able to answer the following questions:
 
   1. What is the purpose of a Hook and when would you use it?
 
@@ -14,7 +16,7 @@
   
   4. How many different Hook strategies are there?
 
-### Assignment
+#### Part 2
 
 Once you feel confident about your answers to the questions above, let's take a look at the unsolved "Counter with Button" application (`PreHooks.js` in the Unsolved folder). There's nothing to install or test here, we're just going to try and analyze this file.
 
@@ -24,9 +26,9 @@ Once you feel confident about your answers to the questions above, let's take a 
   
   2. Constructors just seem uneseccary, right? The truth is, setting up the object of `this.state` is more of a process than it needs to be - naming local state as a key, then an initial value as the key's value. It's extra work within the `constructor()` function, and it takes up more lines in your files. The default method is `setState()` anytime you want to make a change to your state, whether you need to re-render to default or change value. It also limits you to maintaining component states across your entire project, instead of having a global parser to manage states from every component, dynamically.
   
-### Hook It Up!
+### Assignment
   
-* Based on the information you've gathered from the [React Website](https://reactjs.org/docs/hooks-intro.html), let's put some hooks in this `PreHooks.js` file!
+* Based on the information you've gathered, let's put some hooks in this `PreHooks.js` file!
   
 ### Hints
   
