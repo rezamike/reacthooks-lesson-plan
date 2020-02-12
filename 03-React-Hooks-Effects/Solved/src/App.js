@@ -8,7 +8,7 @@ const App = () => {
 
   useEffect(() => {
     document.title = `You have ${todos.length} task${todos.length > 1 || todos.length === 0 ? 's' : ''}!`;
-  })
+  });
 
   return (
     <div className="App">

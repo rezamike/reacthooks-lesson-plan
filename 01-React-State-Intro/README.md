@@ -2,15 +2,17 @@
 
 ## Instructions
 
-### Source
+### Assignment Prep
 
-* Take some time with a partner to look over the lowdown of [Hooks and Effects](https://reactjs.org/docs/hooks-intro.html) that have rolled out with React v.16.8. You should be able to answer the following questions:
+* For our lesson plan, we'll only be focusing on State Hooks and Effect Hooks. That being said, it's still necessary to understand Hooks as a whole. Take some time with a partner to look over the lowdown of [Hooks and Effects](https://reactjs.org/docs/hooks-intro.html) that have rolled out with React v.16.8. You should be able to answer the following questions:
 
   1. What is the purpose of a Hook and when would you use it?
 
   2. How do Hooks differ from the current spread of stateful Components?
 
   3. What problem is there currently with the lifecycle that Hooks now solve?
+  
+  4. How many different Hook strategies are there?
 
 ### Assignment
 

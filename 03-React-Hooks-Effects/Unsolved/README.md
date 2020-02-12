@@ -8,30 +8,25 @@ Since we don't want to overheat our laptops and wait another five minutes, let's
 
 ### Assignment Prep
 
-#### Part 1
+So since we've been mostly exploring the usefulness of State Hooks, we can take a look at how Effect Hooks work in our applications. We'll just be going over a smidgen of the extent that Effect Hooks could consolidate and make more efficient your applications, but you should have a good understanding of its fullest capabilities - it'll help set you apart from competition when looking for the job of your dreams!
 
-The install is going to take up a little time, but that's okay because it gives us a chance to go back and look over the React Hooks documentation once again! Very exciting! But seriously, it's for your own good...
+* With a partner, why don't you do some research to see what the full extent of utilization there is for Effect Hooks. Here are some questions you can use as reference to help you sift through what's important here:
 
-* [React Website](https://reactjs.org/docs/hooks-intro.html)
+  1. How does `useEffect` compare with current lifecycle events (ex. `componentDidMount`)?
 
-#### Part 2
+  2. How would you fetch data inside `useEffect`? What are other Hook-based functions that can be used to help?
 
-Once the install has finished, let's start the app to see what we're working with:
-
-`npm start`
-
-The app should now be running on your localhost, and you should be seeing a title and input field on the page. Go ahead and mess around for a minute to test the functionality of this app. While you're doing that, keep looking over the `App.js` so you can follow along with the changes being made to the state, how they're being made, and what the goals of the component really are.
-
-* You should be testing the following functions:
-  1. Adding a new task
-  2. Deleting a task
+  3. What are the two most common side effects that Effect Hooks help to consolidate?
   
 ### Assignment
 
-Now that you've gotten a good feel for the way the app is meant to work and what the App component does, we're going to do the same thing you did for the last activity:
+In your `App.js` from the last activity, let's go ahead and add a simple Effect Hook. Your Effect Hook should accomplish the following goal:
 
-* Replace all stateful functionality with State Hooks!
+  * In the title of the DOM, you should reflect the amount of tasks (todos) you have - it needs to be dynamic, showing the side effects of the changes being made on the DOM.
+    - ex. `You have 5 tasks!`
   
-### Hints
-  
-* Feel free to reference the last activity, or swing on by the React documention on Hooks again if you're feeling lost. This isn't meant to be easy/effortless right away - it's okay to ask for help, just make sure you exhaust all resources (internet included) first.
+### Bonus
+
+Since that activity should be relatively easy, if you're hoping for a challenge:
+
+  * Have the application track the tasks you actually have left, based on if you've checked some of them off or not.
