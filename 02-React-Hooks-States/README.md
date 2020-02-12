@@ -1,32 +1,39 @@
-## Understanding Hooks
+## State Hooks
 
 ## Instructions
 
-### Source
+### Installation
 
-* Take some time with a partner to look over the lowdown of [Hooks and Effects](https://reactjs.org/docs/hooks-intro.html) that have rolled out with React v.16.8. You should be able to answer the following questions:
+Let's go ahead and get started on our installation process for our main app. We'll be using this simple "Todo List" application for the next activities ahead, so we'll start by opening the console and navigating over to the 'Unsolved' folder and run:
 
-  1. What is the purpose of a Hook and when would you use it?
+`npm install`
 
-  2. How do Hooks differ from the current spread of stateful Components?
+### Assignment Prep
 
-  3. What problem is there currently with the lifecycle that Hooks now solve?
+#### Part 1
 
+The install is going to take up a little time, but that's okay because it gives us a chance to go back and look over the React Hooks documentation once again! Very exciting! But seriously, it's for your own good...
+
+* [React Website](https://reactjs.org/docs/hooks-intro.html)
+
+#### Part 2
+
+Once the install has finished, let's start the app to see what we're working with:
+
+`npm start`
+
+The app should now be running on your localhost, and you should be seeing a title and input field on the page. Go ahead and mess around for a minute to test the functionality of this app. While you're doing that, keep looking over the `App.js` so you can follow along with the changes being made to the state, how they're being made, and what the goals of the component really are.
+
+* You should be testing the following functions:
+  1. Adding a new task
+  2. Deleting a task
+  
 ### Assignment
 
-Once you feel confident about your answers to the questions above, let's take a look at the unsolved "Counter with Button" application. There's nothing to install or test here, we're just going to try and analyze this file.
+Now that you've gotten a good feel for the way the app is meant to work and what the App component does, we're going to do the same thing you did for the last activity:
 
-* Here are some things to note from the file before we dissect - try to soak this up like a sponge:
-
-  1. With this activity, there's only one stateful component - this won't always be the case. Whether you're making an app that shows all the restaurants in a 10-mile radius with accesible restrooms, or you're making your own portfolio, you'll always end up with more components. That's not a bad thing! However, with so many states to manage, you could end up in what we call "Wrapper Hell" - and that's not where Tupac and Biggie are resting (they're in Thugz Mansion). Wrapper Hell is where you're reusing logic between multiple components that become so deeply nested, you can't find the threads to adjust states appropriately.
-  
-  2. Constructors just seem uneseccary, right? The truth is, setting up the object of `this.state` is more of a process than it needs to be - naming local state as a key, then an initial value as the key's value. It's extra work within the `constructor()` function, and it takes up more lines in your files. The default method is `setState()` anytime you want to make a change to your state, whether you need to re-render to default or change value. It also limits you to maintaining component states across your entire project, instead of having a global parser to manage states from every component, dynamically.
-  
-### Hook It Up!
-  
-* Based on the information you've gathered from the [React Website](https://reactjs.org/docs/hooks-intro.html), let's put some hooks in this file!
+* Replace all stateful functionality with State Hooks.
   
 ### Hints
   
-* Make sure to reference the [React Website](https://reactjs.org/docs/hooks-intro.html) if you're feeling lost, and don't forget:
-  > Google is a coder's best friend!
+* Feel free to reference the last activity, or swing on by the React documention on Hooks again if you're feeling lost. This isn't meant to be easy/effortless right away - it's okay to ask for help, just make sure you exhaust all resources (internet included) first.
