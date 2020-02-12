@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Form from './components/Form.js';
 import List from './components/List.js';
 import './App.css';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
+
+  useEffect(() => {
+    document.title = `You have ${todos.length} task${todos.length > 1 || todos.length === 0 ? 's' : ''}!`;
+  })
 
   return (
     <div className="App">

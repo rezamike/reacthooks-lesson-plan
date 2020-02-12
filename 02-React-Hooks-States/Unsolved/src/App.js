@@ -41,24 +41,26 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="jumbotron jumbotron-fluid">
+        <div className="jumbotron jumbotron-fluid navbar">
           <div className="container">
             <h1 className="display-4">Todo List</h1>
           </div>
         </div>
-        <Form
-          onSubmit={this.handle_submit}
-          onChange={this.handle_change}
-          value={this.state.todo}
-        />
-        {this.state.todos.map((todo, i) => (
-          <List
-            id={i}
-            key={i}
-            ondelete={this.delete_todo}
-            value={todo}
+        <div className="main">
+          <Form
+            onSubmit={this.handle_submit}
+            onChange={this.handle_change}
+            value={this.state.todo}
           />
-        ))}
+          {this.state.todos.map((todo, i) => (
+            <List
+              id={i}
+              key={i}
+              ondelete={this.delete_todo}
+              value={todo}
+            />
+          ))}
+        </div>
       </div>
     );
   }
