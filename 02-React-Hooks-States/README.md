@@ -32,7 +32,7 @@ The app should now be running on your localhost, and you should be seeing a titl
 
 Now that you've gotten a good feel for the way the app is meant to work and what the App component does, we're going to do the same thing you did for the last activity:
 
-* Replace all stateful functionality with State Hooks.
+* Replace all stateful functionality with State Hooks!
   
 ### Hints
   
