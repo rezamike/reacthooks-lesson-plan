@@ -8,4 +8,4 @@ Be the end of the lesson, students should have a strong understanding of React H
 
 - - -
 
-### Activity #1
+#### Activity #1
