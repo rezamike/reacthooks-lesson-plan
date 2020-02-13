@@ -18,7 +18,7 @@
 
 #### Part 2
 
-Once you feel confident about your answers to the questions above, let's take a look at the unsolved "Counter with Button" application (`PreHooks.js` in the Unsolved folder). There's nothing to install or test here, we're just going to try and analyze this file.
+Once you feel confident about your answers to the questions above, let's take a look at the unsolved "Counter with Button" application (`PreHooks.js` in the `/Unsolved` folder). There's nothing to install or test here, we're just going to try and analyze this file.
 
 * Here are some things to note from the file before we dissect - try to soak this up like a sponge:
 

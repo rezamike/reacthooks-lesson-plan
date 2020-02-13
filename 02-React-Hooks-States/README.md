@@ -4,7 +4,7 @@
 
 ### Installation
 
-Let's go ahead and get started on our installation process for our main app. We'll be using this simple "Todo List" application for the next activities ahead, so we'll start by opening the console and navigating over to the 'Unsolved' folder and run:
+Let's go ahead and get started on our installation process for our main app. We'll be using this simple "Todo List" application for the next activities ahead, so we'll start by opening the console and navigating over to the `/Unsolved` folder and run:
 
 `npm install`
 
