@@ -6,6 +6,8 @@ Students should have an understanding of HTML, JavaScript, React and a base know
 
 Be the end of the lesson, students should have a strong base understanding of React Hooks with regards to both states and effects, and their implementation with React applications. They'll be transforming the React application given to them, to a Hook-based React app, utilizing all of the new methods they'll be learning. We'll be focusing mainly on the two most used strategies of React Hooks - States and Effects.
 
+* If you feel that it helps, students may work in pairs for each activity.
+
 - - -
 
 ### Activity #1
@@ -28,9 +30,9 @@ Be the end of the lesson, students should have a strong base understanding of Re
   
   4. How many different Hook strategies are there?
 
-* Once they've reviewed the information, you may call on them to answer the questions above. Otherwise, direct the students to look over the example in the `/Unsolved` folder of a stateful component. Ask them to discuss between themselves how they might switch this stateful component to a function that uses React Hooks with the inherit `useState()` method.
+* Once they've reviewed the information, you may call on them to answer the questions above. Otherwise, direct the students to look over the `PreHooks.js` example of a stateful component. Ask them to discuss between themselves how they might switch this stateful component to a function that uses React Hooks with the inherit `useState()` method.
 
-* They should attempt to review the two files, and try to understand the difference between the stateful component used in one, and the Hooks used in the other..
+* They should then open `StateHook.js` and review the two files to understand the difference between the stateful component used in one, and the Hooks used in the other.
 
 #### Instructor Review
 
@@ -66,9 +68,9 @@ Be the end of the lesson, students should have a strong base understanding of Re
 
 ### Activity #2
 
-#### Instructor Demo
-
 ###### From this point forward, students will be using the same React project for the rest of the lesson. Each lesson moving forward has a `/src` folder inside of the `/Solved` folder that they may copy and paste if they did not find the solution themselves, to follow along in the assignment after.
+
+#### Instructor Demo
 
 * First, instruct the students to open the unsolved folder, and open the terminal - making sure they are in the `/Unsolved` folder in the directory of the terminal. From here, they should run:
 `npm install`
@@ -85,3 +87,60 @@ Be the end of the lesson, students should have a strong base understanding of Re
 
 #### Instructor Review
 
+* Showcase the changes made in the `/Solved` folder, or walk through the changes yourself. Students should feel caught up and feel free to ask questions about making the changes from these components to the functions. 
+
+* Show how functionality still works exactly the same, and how the app files have been cleaned up.
+
+* Ask questions in regards to the differences between the unsolved application and the solved application. Allow students to ask questions - this is the crux of the whole lesson.
+
+- - -
+
+### Activity #3
+
+###### Again, students will be using the same React project for the rest of the lesson, so there is only a `README.md` in the `/Unsolved` folders moving forward.
+
+#### Instructor Demo
+
+* Instruct students on some information in regards to to lifecycle methods:
+  > React lifecycle methods as the series of events that happen from the birth of a React component to its death. Every component in React goes through a lifecycle of events.
+
+* Students should work in pairs to research information regarding `useEffect()` Hooks:
+  > Think of useEffect Hook as componentDidMount, componentDidUpdate, and componentWillUnmount combined.
+
+#### Student Assignment
+
+* Instruct the students to open the `App.js` from the last activity and run `npm start`. The goal for this assignment is to add a `useEffect()` hook to show how many tasks they have in the DOM, up in the document title.
+
+#### Instructor Review
+
+* Showcase the changes made in the `/Solved` folder, or walk through the changes yourself. Students should feel caught up and feel free to ask questions about making the changes from these components to the functions.
+
+* Ask students how using `useEffect()` could help with other aspects of state/data passing from the client to DOM.
+  > Effect cleanup phase happens after every re-render, and not just once during unmounting.
+
+- - -
+
+### Activity #4
+
+#### Instructor Demo
+
+* Go over some of the benefits of building a global library with custom Hooks:
+  1. > Isolating stateful logic, making it easier to test.
+
+  2. > Sharing stateful logic without render props or higher-order components.
+
+  3. > Separating your app’s concerns based on logic, not lifecycle hooks.
+
+* Students should work in pairs to look over the application in its current state and determine potential ways to consolidate further by using some external custom Hooks that can be imported into the main "component" files.
+
+#### Student Assignment
+
+* Instruct the students to open the `App.js` from the last activity and run `npm start`. The goal of this assignment is to have external file(s) that now house the main `useState()` functions to build everything needed for the other files in the application.
+
+* They should make two files that use the State Hooks to build the value's, and functions - these will be ported into the `App.js` and `Form.js` files.
+
+#### Instructor Review
+
+* Showcase the changes made in the `/Solved` folder, or walk through the changes yourself. Students should feel caught up and feel free to ask questions about making the changes from these components to the functions.
+
+* Make sure to show how the new files are imported in, and the functions are utilized in the main functions without having to use the React Hooks in those main files - by just making custom Hooks!
