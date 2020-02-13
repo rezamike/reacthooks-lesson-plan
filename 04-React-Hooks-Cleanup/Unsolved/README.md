@@ -10,7 +10,7 @@ Now that we've switched over our statful components to functions that utilize `u
   
 ### Assignment
 
-Try building two seperate functions in seperate files (ex. `formState.js` & `listState.js`) to run `useState()` for multiple functions and values in the files that could benefit from this consolidation.
+Try building two seperate functions in seperate files (ex. `formState.js` & `listState.js`), which run `useState()`. This will allow you to access multiple functions and values in the files that you call these function files in.
 
 * While this may seem excessive for an small-scale application such as this, it will be helpful when building/expanding to a larger-scale.
 
