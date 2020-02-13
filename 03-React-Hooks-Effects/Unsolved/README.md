@@ -4,13 +4,13 @@
 
 ### Setup
 
-Since we don't want to overheat our laptops and wait another five minutes, let's go ahead and continue to work on the same folder with our `App.js` and all the progress you've been making on it.
+Let's continue to work on the same folder with our initial application from the last activity, so we don't have to reinstall all our modules over again.
 
 ### Assignment Prep
 
-So since we've been mostly exploring the usefulness of State Hooks, we can take a look at how Effect Hooks work in our applications. We'll just be going over a smidgen of the extent that Effect Hooks could consolidate and make more efficient your applications, but you should have a good understanding of its fullest capabilities - it'll help set you apart from competition when looking for the job of your dreams!
+Now let's look at how Effect Hooks work in our applications. We'll just be going over a smidgen of the extent that Effect Hooks could consolidate and make more efficient your applications, but you should have a good understanding of its fullest capabilities.
 
-* With a partner, why don't you do some research to see what the full extent of utilization there is for Effect Hooks. Here are some questions you can use as reference to help you sift through what's important here:
+* With a partner, do some research to see what the full extent of utilization there is for Effect Hooks. Here are some questions you can use as reference to help you sift through what's important here:
 
   1. How does `useEffect` compare with current lifecycle events (ex. `componentDidMount`)?
 
@@ -20,13 +20,13 @@ So since we've been mostly exploring the usefulness of State Hooks, we can take 
   
 ### Assignment
 
-In your `App.js` from the last activity, let's go ahead and add a simple Effect Hook. Your Effect Hook should accomplish the following goal:
+In your `App.js` from the last activity, let's add a simple Effect Hook. Your Effect Hook should accomplish the following goal:
 
   * In the title of the DOM, you should reflect the amount of tasks (todos) you have - it needs to be dynamic, showing the side effects of the changes being made on the DOM.
     - ex. `You have 5 tasks!`
   
 ### Bonus
 
-Since that activity should be relatively easy, if you're hoping for a challenge:
+If you're hoping for more of a challenge:
 
   * Have the application track the tasks you actually have left, based on if you've checked some of them off or not.

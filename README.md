@@ -30,11 +30,11 @@ Be the end of the lesson, students should have a strong base understanding of Re
 
 * Once they've reviewed the information, you may call on them to answer the questions above. Otherwise, direct the students to look over the example in the `/Unsolved` folder of a stateful component. Ask them to discuss between themselves how they might switch this stateful component to a function that uses React Hooks with the inherit `useState()` method.
 
-* They should make an attempt at making the changes needed, but they should be reminded that this assignment is more for understanding - it's more important that they see the process of it.
+* They should attempt to review the two files, and try to understand the difference between the stateful component used in one, and the Hooks used in the other..
 
 #### Instructor Review
 
-* If any students feel confident to showcase their attempt, that should be encouraged. Otherwise, you may show the students how to make the changes yourself, or the solution (`StateHook.js`) may be shown to the students.
+* If any students feel confident to explain the difference between the two, that should be encouraged.
 
 * This is the time for really highlighting the comparison between the two. `useState()` is not a difficult overhaul method for stateful components, but it is the groundwork for understanding Hooks in React.
 
@@ -45,7 +45,7 @@ Be the end of the lesson, students should have a strong base understanding of Re
   const [value, setValue] = useState(initial value);
 
   // useState will process your inital value by what you set it, so it can be a number (2), a string ('foo'), or an empty array for you to fill ([]).
-  
+
 
   // This example:
   const [cash, setCash] = useState(0)
@@ -68,7 +68,7 @@ Be the end of the lesson, students should have a strong base understanding of Re
 
 #### Instructor Demo
 
-* From this point forward, students will be using the same React project for the rest of the lesson. Each lesson moving forward has a `/src` folder inside of the `/Solved` folder that they may copy and paste if they did not find the solution themselves, to follow along in the assignment after.
+###### From this point forward, students will be using the same React project for the rest of the lesson. Each lesson moving forward has a `/src` folder inside of the `/Solved` folder that they may copy and paste if they did not find the solution themselves, to follow along in the assignment after.
 
 * First, instruct the students to open the unsolved folder, and open the terminal - making sure they are in the `/Unsolved` folder in the directory of the terminal. From here, they should run:
 `npm install`
